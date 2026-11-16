@@ -4,18 +4,19 @@
 Why do employees leave, and which groups are most at risk?
 
 ## Dataset
-IBM HR Analytics Employee Attrition & Performance (Kaggle): 1,470 employees, 35 columns (age, job role, income, overtime, travel, satisfaction scores, and whether the employee left).
+IBM HR Analytics Employee Attrition & Performance, from Kaggle (search the title on kaggle.com to download it). 1,470 employees, 35 columns (age, job role, income, overtime, travel, satisfaction scores, and whether the employee left).
+
+Source: [IBM HR Analytics Employee Attrition & Performance (Kaggle)](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Tools
 Python, pandas, matplotlib, Jupyter Notebook
 
 ## Project Structure
-```
 hr-attrition-analysis/
-├── data_raw/      # original CSV, untouched
-├── data_clean/    # cleaned CSV
-└── notebook.ipynb # analysis
-```
+├── README.md                                # project summary
+├── attrition_analysis.ipynb                 # analysis notebook
+├── WA_Fn-UseC_-HR-Employee-Attrition.csv    # raw data (from Kaggle)
+└── hr_attrition_clean.csv                   # cleaned data
 
 ## Steps
 1. **Loaded** the data and checked shape, data types and missing values (none found).
