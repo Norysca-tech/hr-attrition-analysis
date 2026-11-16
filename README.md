@@ -12,11 +12,14 @@ Source: [IBM HR Analytics Employee Attrition & Performance (Kaggle)](https://www
 Python, pandas, matplotlib, Jupyter Notebook
 
 ## Project Structure
+
+```
 hr-attrition-analysis/
 ├── README.md                                # project summary
 ├── attrition_analysis.ipynb                 # analysis notebook
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv    # raw data (from Kaggle)
 └── hr_attrition_clean.csv                   # cleaned data
+```
 
 ## Steps
 1. **Loaded** the data and checked shape, data types and missing values (none found).
